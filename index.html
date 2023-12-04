@@ -2,18 +2,21 @@
 <html lang="en">
     <head>
         <title>cafe menu</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="widith=device-width,initial-scale=.0">
+        <link href="style.css" rel="stylesheet"/>
     </head>
 
     <body>
+        <div class="menu">
         <h1>CAMPER CAFE</h1>
         <p>Est. 2020</p>
         <hr>
         <main>
             <section>
                 <h2>Coffee</h2>
-                <img src="images\hot-coffee-rounded-cup-on-a-plate-from-side-view.png" alt="coffe icon">
+                <div class="icon-container">
+                <img src="images\hot-coffee-rounded-cup-on-a-plate-from-side-view.png" alt="coffe icon" class="icon-coffee">
+                </div>
                 <article><p>French Vanilla</p><p>3.00</p></article>
                 <article><p>Caramel Macchiato</p><p>3.75</p></article>
                 <article><p>Pumpkin Spice</p><p>3.50</p></article>
@@ -22,7 +25,9 @@
             </section>
             <section>
                 <h2>Desserts</h2>
-                <img src="images\dessert.png" alt="dessert icon">
+                <div class="dessert-icon-container">
+                <img src="images\dessert.png" alt="dessert icon"class="dessert-icon">
+                </div>
                 <article><p>Donut</p><p>1.50</p></article>
                 <article><p>Cherry Pie</p><p>2.75</p></article>
                 <article><p>Cheesecake</p><p>3.00</p></article>
@@ -34,5 +39,6 @@
                 <p>123free code camp Drive</p>
             </footer>
         </main>
+        </div>
     </body>
 </html>
