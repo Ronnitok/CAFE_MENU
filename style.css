@@ -1,46 +1,60 @@
-.menu {
-    
-    background-color: burlywood;
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1qONRufuyMZ2ByECP078-w7s8zcXn3clsGg&usqp=CAU);
+    padding: 20px;
+    font-family: sans-serif;
 }
 
-h1,h2,p {
-text-align: center;
+.menu {
+    text-align: center;
+    background-color: burlywood;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
 
 .icon-coffee {
-    
-    width: 32px;
-    height: 32px; 
-    border: 1px;
-    padding: 1px
-    
-}
-.icon-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-.dessert-icon-container {
-display: flex;
-text-align: center;
-flex-direction: column;
-align-items: center;
+     width: 35px;
+     height: 35px;
 }
 
 .dessert-icon {
-    width:32px;
-    height: 32px;
-    border: 1px;
-    padding-top: 0px;
+    width: 35px;
+    height: 35px;
 }
-h2 {
-    font-size: x-large;
-    padding-bottom: 0%;
-}
-.price {
-display: inline-block;
-}
-.item {
+
+.item p {
     display: inline-block;
+}
+
+.price {
+    text-align: right;
+    width: 75%;
+}
+
+.dessert,.flavor {
+    text-align: left;
+    width: 75%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+hr {
+    border-color: brown;
+    background-color: brown;
+    height: 2px;
+}
+ .hover {
+    color: black;
+ }
+
+.hover:visited{ 
+    color:brown
+}
+.hover:hover{
+    color: yellowgreen;
+}
+    
 }
